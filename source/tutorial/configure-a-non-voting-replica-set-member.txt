@@ -15,6 +15,10 @@ distribution beyond the maximum seven voting members. To configure a
 member as non-voting, set its
 :rsconf:`members[n].votes` value to ``0``.
 
+.. warning::
+   Non-voting members must also have :rsconf:`members[n].priority` 
+   set to 0.
+
 Example
 -------
 
